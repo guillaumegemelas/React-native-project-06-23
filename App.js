@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
 //il va falloir trouver le sujet pour cette application!
-//application de type resto avec geolocalisation?
+//application de type resto avec geolocalisation? et compte client? ajout de notes?
 
 export default function App() {
   return (
