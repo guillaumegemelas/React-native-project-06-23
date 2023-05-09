@@ -1,6 +1,9 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
+//il va falloir trouver le sujet pour cette application!
+//application de type resto avec geolocalisation?
+
 export default function App() {
   return (
     <View style={styles.container}>
