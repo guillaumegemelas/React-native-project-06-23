@@ -62,7 +62,7 @@ export default function MovieScreen({ navigation }) {
                     <Text>{item.original_title}</Text>
                     {/* {item.poster_path !== null ? ( */}
                     <Image
-                      //penser à mettre uri dans la source de l'image sinon rien ne s'affiche et pas de message d'erreur
+                      //penser à mettre uri dans la source de l'image !sinon rien ne s'affiche et pas de message d'erreur
                       source={{
                         uri: `${"https://image.tmdb.org/t/p/w500"}${
                           item.poster_path
